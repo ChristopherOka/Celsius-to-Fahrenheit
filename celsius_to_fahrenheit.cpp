@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-void IgorCoins2_1() { //declare function IgorCoins2_1
+void converter() { 
 	double celsius = 21; //declare double variable celsius
 	double fahrenheit; //declare double variable fahrenheit
 	fahrenheit = (celsius * (1.8)) + 32; //calculate the converted celsius to fahrenheit
@@ -11,5 +11,5 @@ void IgorCoins2_1() { //declare function IgorCoins2_1
 }
 
 int main() {
-	IgorCoins2_1(); //call function IgorCoins2_1
+	converter(); //call function converter
 }
